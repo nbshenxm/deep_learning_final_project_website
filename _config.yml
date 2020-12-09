@@ -1,8 +1,10 @@
 theme: jekyll-theme-cayman
 
-title: A Deep Learning Model for Predicting Market Volatility
+title: Deep Learning Models for Predicting Market Volatility
 
 description: This is a final project written by Xiangmin Shen and Michael Zhu for Northwester University CS 496, Deep Learning course taught by Prof. Bryan Pardo.
 
 github:
   repository_url: https://github.com/tzk524/deep_learning_final_project
+
+email: Contact us at xiangminshen2019@u.northwestern.edu or tianyuanzhu2019@u.northwestern.edu
