@@ -1,37 +1,17 @@
-## Welcome to GitHub Pages
+## Motivation
 
-You can use the [editor on GitHub](https://github.com/nbshenxm/deep_learning_final_project_website/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+What is the thing you're trying to do and why anyone should care
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Our Models
 
-### Markdown
+Describe what you're doing in very high terms
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Describe how you built the model
 
-```markdown
-Syntax highlighted code block
+## Evaluation
 
-# Header 1
-## Header 2
-### Header 3
+Describe how you tested the model (what your dataset was, how you measured success)
 
-- Bulleted
-- List
+## Discussion
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/nbshenxm/deep_learning_final_project_website/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Describe some results (how well it works in no more than a paragraph)
