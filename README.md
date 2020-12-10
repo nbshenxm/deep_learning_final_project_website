@@ -18,9 +18,9 @@ We obtained S&P 500 Value Index second-by-second trading data from 09/28/2009 9:
 
 We measured the accuracy of the models by calculating the symmetric mean absolute percentage error (sMAPE). The formula for calculating sMAPE is 
 
-$$\frac{1}{n}\sum\limits_{t=1}^n \frac{|F_t - A_t|}{(A_t + F_t)/2}$$, 
+![smape](/images/smape.png)
 
-where $F_t$ is the forecast value and $A_t$ is the actual value. We chose the sMAPE method over the classic MAPE method because sMAPE is resistant to outliers. The graphs below show the evalution of our three models.
+where F_t is the forecast value and A_t is the actual value. We chose the sMAPE method over the classic MAPE method because sMAPE is resistant to outliers. The graphs below show the evalution of our three models.
 
 baseline model:
 
@@ -34,6 +34,19 @@ GRU model:
 
 ![GRU_1](/images/GRU_epoch100_lr00001_hidden256_nlayers2.png)
 
+The table below shows the evaluation of GRU models with various parameters.
+
+| Epoch | Learning rate | Hidden layer dimension | Number of layers | Percentage error |
+| --- | ----------- | ----------- | ----------- | ----------- |
+| 100 | 0.001 | 128 | 2 | 16.4% |
+| 500 | 0.001 | 128 | 2 | 19.2% |
+| 1000 | 0.001 | 128 | 2 | 17.4% |
+| 100 | 0.01 | 128 | 2 | 17.2% |
+| 100 | 0.0001 | 128 | 2 | 12.9% |
+| 100 | 0.0001 | 64 | 2 | 16.9% |
+| 100 | 0.0001 | 256 | 2 | 11.4% |
+| 100 | 0.0001 | 512 | 2 | 17.4% |
+| 100 | 0.0001 | 256 | 3 | 18.6% |
 
 
 ## Discussion
