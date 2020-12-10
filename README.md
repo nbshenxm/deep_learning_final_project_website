@@ -8,11 +8,13 @@ Describe what you're doing in very high terms
 
 Describe how you built the model
 
-![baseline](/images/baseline.png)
-
 ## Evaluation
 
 Describe how you tested the model (what your dataset was, how you measured success)
+
+![baseline](/images/baseline.png)
+
+![GRU_1](/images/GRU_1.png)
 
 ## Discussion
 
