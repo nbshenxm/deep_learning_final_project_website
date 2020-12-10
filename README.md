@@ -14,7 +14,7 @@ The GRU model is a recurrent neural network that contains a GRU layer with input
 
 ## Evaluation
 
-We obtained S&P 500 Value Index second-by-second trading data from 09/28/2009 9:30:00 to 11/20/2020 20:00:00. We found the data from [Kibot](http://www.kibot.com/free_historical_data.aspx), a historical data vendor. We used 90% of the data for training and 10% for testing.
+We obtained S&P 500 Value Index second-by-second trading data from 09/28/2009 9:30:00 to 11/20/2020 20:00:00. We found the data from [Kibot](http://www.kibot.com/free_historical_data.aspx), a historical data vendor. We used 90% of the data for training and 10% for testing. For each epoch, we keep track of the training loss and the accuracy of the model.
 
 We measured the accuracy of the models by calculating the symmetric mean absolute percentage error (sMAPE). The formula for calculating sMAPE is 
 
